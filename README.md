@@ -1,34 +1,41 @@
-# Week 1 – Strategic Planning and Data Exploration in Logistics
+# Logistics Data Analytics Internship Projects
 
-## Project Overview
+This repository contains weekly Data Analytics internship projects focused on logistics and supply chain operations using Python.
 
-This project focuses on strategic planning for logistics data analytics using Python.
+## Weekly Projects
 
-## Objectives
+### Week 1 – Strategic Planning and Data Exploration
 
-- Understand common logistics challenges.
-- Identify relevant Key Performance Indicators (KPIs).
-- Explore the role of data analytics in logistics.
-- Develop a roadmap for future data analysis.
+- Identifying logistics challenges
+- Defining Key Performance Indicators (KPIs)
+- Planning logistics data analysis
+- Developing a strategic roadmap
 
-## Key Performance Indicators
+[View Week 1 Project](Week-1/)
 
-- On-Time Delivery Rate
-- Average Delivery Time
-- Cost per Delivery
-- Delivery Delay Rate
+### Week 2 – Data Collection, Cleaning, and Preprocessing
 
-## Technologies
+- Data collection and quality assessment
+- Handling missing values and duplicates
+- Outlier detection
+- Data normalization
+- Python-based preprocessing and visualization
 
-Python, Pandas, and data analytics concepts.
+[View Week 2 Project](Week-2/)
 
-## Project Deliverables
+## Technologies Used
 
-- Strategic planning report in Microsoft Word.
-- Python code examples illustrating the proposed analytical approach.
+- Python
+- Pandas and NumPy
+- Matplotlib
+- Scikit-learn
+- Data Cleaning and Preprocessing
+- Data Visualization
 
-## Conclusion
+## Project Objective
 
-This project establishes a foundation for using data analytics to improve logistics operations.
+To develop practical Data Analytics skills using Python and explore how data-driven approaches can improve logistics efficiency and business decision-making.
 
-**Note:** Week 1 is a planning-stage project, not a completed predictive modeling analysis.
+## Upcoming Projects
+
+Additional weekly internship projects will be added as they are completed.
