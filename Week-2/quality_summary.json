@@ -1,0 +1,59 @@
+{
+  "dataset_type": "synthetic teaching example inspired by Olist schema; NOT real Olist records",
+  "raw_rows": 62,
+  "duplicate_order_rows_removed": 2,
+  "unique_order_rows": 60,
+  "quarantined_rows": 6,
+  "clean_rows": 54,
+  "clean_order_ids_unique": true,
+  "missing_before_after_duplicate_removal": {
+    "customer_state": 3,
+    "freight_value": 4,
+    "distance_km": 2
+  },
+  "imputation_medians": {
+    "freight_value": 104.655,
+    "distance_km": 327.05
+  },
+  "delivered_orders_in_clean": 46,
+  "on_time_deliveries": 23,
+  "on_time_rate_pct": 50.0,
+  "mean_delivery_days": 11.91,
+  "mean_freight_brl": 157.61,
+  "missing_after": {
+    "customer_state": 0,
+    "freight_value": 0,
+    "distance_km": 0
+  },
+  "outlier_thresholds": {
+    "freight_value": {
+      "lower": 2.0,
+      "upper": 216.71,
+      "flagged": 1
+    },
+    "distance_km": {
+      "lower": -75.93,
+      "upper": 776.08,
+      "flagged": 1
+    }
+  },
+  "model_clipping_bounds": {
+    "freight_value": {
+      "p05": 40.94,
+      "p95": 162.62
+    },
+    "distance_km": {
+      "p05": 76.45,
+      "p95": 595.64
+    }
+  },
+  "quarantine_reasons": {
+    "missing_or_invalid_delivered_date": 2,
+    "invalid_estimated_date": 1,
+    "missing_order_id": 1,
+    "negative_freight": 1,
+    "delivery_before_purchase": 1
+  },
+  "normalization_min": 0.0,
+  "normalization_max": 1.0000000000000002
+}

@@ -1,0 +1,7 @@
+order_id,customer_state,order_status,order_purchase_timestamp,order_estimated_delivery_date,order_delivered_customer_date,freight_value,distance_km,quality_issue
+SIM-0004,BA,delivered,2025-03-04,,2025-03-18,103.66,252.8,invalid_estimated_date
+,RS,delivered,2025-03-06,2025-03-22,2025-03-21,74.78,363.0,missing_order_id
+SIM-0010,MG,delivered,2025-03-10,2025-03-19,2025-03-20,-25.0,417.0,negative_freight
+SIM-0025,BA,delivered,2025-03-25,2025-04-03,,148.65,310.9,missing_or_invalid_delivered_date
+SIM-0032,BA,delivered,2025-04-01,2025-04-08,,70.65,235.0,missing_or_invalid_delivered_date
+SIM-0047,PR,delivered,2025-04-16,2025-04-29,2025-04-01,144.23,171.0,delivery_before_purchase
