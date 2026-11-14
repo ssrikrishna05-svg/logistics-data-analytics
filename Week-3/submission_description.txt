@@ -1,0 +1,11 @@
+Week 3 Internship Project: Advanced Data Analysis and Visualization in Logistics Using Python
+
+This report documents a reproducible Week 3 data analytics project building on the Week 2 data-cleaning work. The aim is to explore logistics performance, calculate operational indicators, develop meaningful visualizations, and demonstrate supervised and unsupervised analytical techniques while discussing their business implications and limitations.
+
+The project uses 54 cleaned, explicitly simulated logistics orders from Week 2. It does not claim to analyze actual Olist customer records. The authentic Brazilian E-Commerce Public Dataset by Olist was researched as a real-world reference, with its source and limitations cited.
+
+The Python implementation calculates on-time delivery rate, delivery durations, delay patterns, regional summaries, freight sensitivity, and statistical relationships. Of the 54 records, 46 were delivered; 23 deliveries were on time, producing an on-time rate of 50% among delivered orders. Average delivery time was 11.91 days. An outlier-sensitivity check demonstrated that one flagged freight value increased the sample mean from R$ 103.98 (excluding the flagged row) to R$ 157.61 (including all records).
+
+I also implemented a Ridge regression example, with training-only preprocessing, and compared its held-out performance against a simple median baseline. The model's MAE was 4.925 days versus 6.143 for the baseline, but its negative R-squared score showed that the model is not suitable for operational deployment. Finally, K-Means clustering identified three descriptive groups, which were examined with a silhouette score and cluster profiles.
+
+The report contains eight generated charts, explanations of code and methodology, tables of executed results, business interpretations, detailed critical reflection on data quality, model leakage, outliers, selection bias, uncertainty, and recommended validation steps. The GitHub project contains the complete Python script, input data, output CSV/JSON files, and figures for reproducibility. All findings are explicitly educational and synthetic rather than validated real-company outcomes.
