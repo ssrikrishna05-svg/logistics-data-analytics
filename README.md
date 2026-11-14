@@ -38,8 +38,6 @@ Key Activities:
 - Model evaluation and business insights
 - Critical reflection and recommendations
 
-Technologies: Python, Pandas, NumPy, Matplotlib, Scikit-learn
-
 [View Week 3 Project](Week-3/)
 
 ## Technologies Used
