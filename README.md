@@ -23,12 +23,33 @@ This repository contains weekly Data Analytics internship projects focused on lo
 
 [View Week 2 Project](Week-2/)
 
+### Week 3 – Advanced Data Analysis and Visualization in Logistics
+
+Project Focus: Performing advanced logistics data analysis using Python to identify operational patterns, evaluate delivery performance, and support data-driven decision-making.
+
+Key Activities:
+
+- Exploratory Data Analysis (EDA)
+- Logistics KPI calculations
+- Delivery performance and freight cost analysis
+- Data visualization using Matplotlib
+- Delivery time prediction using regression
+- K-Means clustering analysis
+- Model evaluation and business insights
+- Critical reflection and recommendations
+
+Technologies: Python, Pandas, NumPy, Matplotlib, Scikit-learn
+
+[View Week 3 Project](Week-3/)
+
 ## Technologies Used
 
 - Python
 - Pandas and NumPy
 - Matplotlib
 - Scikit-learn
+- regression analysis
+- clustering
 - Data Cleaning and Preprocessing
 - Data Visualization
 
