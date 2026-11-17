@@ -1,0 +1,14 @@
+dimension,segment,n,MAE_hours,actual_mean_hours
+priority,Express,169,1.582,25.075
+priority,Standard,366,1.708,26.022
+region,Central,64,1.6,25.109
+region,East,89,1.678,27.537
+region,North,119,1.691,26.497
+region,South,122,1.704,26.194
+region,West,141,1.643,23.795
+transport_mode,Air,96,1.707,15.89
+transport_mode,Rail,165,1.672,25.032
+transport_mode,Road,274,1.653,29.584
+weather_forecast,Clear,366,1.642,24.585
+weather_forecast,Rain,132,1.592,26.907
+weather_forecast,Storm,37,2.205,32.754

@@ -1,0 +1,8 @@
+model,hyperparameters,CV_MAE_hours,CV_MAE_sd,fold_MAEs
+Ridge,"{""alpha"": 0.2}",2.9525,0.0429,"[2.9091, 2.9375, 3.0109]"
+Ridge,"{""alpha"": 5}",2.94801,0.04911,"[2.8925, 2.9396, 3.0119]"
+Ridge,"{""alpha"": 40}",2.9779,0.05735,"[2.9038, 2.9864, 3.0435]"
+RandomForest,"{""max_depth"": 8}",1.87795,0.03315,"[1.8628, 1.8471, 1.9239]"
+RandomForest,"{""max_depth"": 14}",1.86659,0.01542,"[1.8659, 1.848, 1.8858]"
+HistGradientBoosting,"{""max_leaf_nodes"": 12}",1.76093,0.04179,"[1.7644, 1.7081, 1.8103]"
+HistGradientBoosting,"{""max_leaf_nodes"": 24}",1.79333,0.02189,"[1.7881, 1.7695, 1.8223]"

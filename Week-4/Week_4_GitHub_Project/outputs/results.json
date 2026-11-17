@@ -1,0 +1,159 @@
+{
+  "calibrated_90pct_absolute_error_width": 3.272336510947934,
+  "optimization": {
+    "all_road_baseline": {
+      "Air": 0,
+      "Rail": 0,
+      "Road": 60,
+      "predicted_SLA_breaches": 26,
+      "predicted_mean_hours": 30.973424696224964,
+      "predicted_total_late_hours": 206.78103746009862,
+      "total_tariff_units": 51325.85
+    },
+    "budget_relative_to_all_road": 1.15,
+    "budget_units": 59024.72749999999,
+    "max_air_slots": 10,
+    "max_rail_slots": 18,
+    "n_shipments": 60,
+    "optimized": {
+      "Air": 9,
+      "Rail": 18,
+      "Road": 33,
+      "predicted_SLA_breaches": 3,
+      "predicted_mean_hours": 25.02728139238457,
+      "predicted_total_late_hours": 3.621574993461099,
+      "total_tariff_units": 58834.15400000001
+    },
+    "predicted_lateness_reduction_pct": 98.24859424348331,
+    "risk_sensitivity": [
+      {
+        "SLA_breaches": 26,
+        "late_hours": 206.78103746009862,
+        "plan": "all road",
+        "shock": "point estimate"
+      },
+      {
+        "SLA_breaches": 3,
+        "late_hours": 3.621574993461099,
+        "plan": "optimized",
+        "shock": "point estimate"
+      },
+      {
+        "SLA_breaches": 33,
+        "late_hours": 301.0037309926314,
+        "plan": "all road",
+        "shock": "add validation 90pct absolute-error width"
+      },
+      {
+        "SLA_breaches": 12,
+        "late_hours": 27.191418986771968,
+        "plan": "optimized",
+        "shock": "add validation 90pct absolute-error width"
+      },
+      {
+        "SLA_breaches": 31,
+        "late_hours": 314.9807861018631,
+        "plan": "all road",
+        "shock": "10pct slower actual service"
+      },
+      {
+        "SLA_breaches": 10,
+        "late_hours": 22.478216298314877,
+        "plan": "optimized",
+        "shock": "10pct slower actual service"
+      }
+    ],
+    "tariff_change_pct": 14.62869879407747
+  },
+  "promised_target_breach_rate": 0.21694444444444444,
+  "sample_count": 3600,
+  "selected_hyperparameters": {
+    "max_leaf_nodes": 12
+  },
+  "selected_model": "HistGradientBoosting",
+  "sensitivity": [
+    {
+      "Air": 3,
+      "Rail": 18,
+      "Road": 39,
+      "budget_multiplier": 1.0,
+      "predicted_SLA_breaches": 14,
+      "predicted_mean_hours": 26.990653355039782,
+      "predicted_total_late_hours": 31.691781843952594,
+      "total_tariff_units": 51139.829000000005
+    },
+    {
+      "Air": 5,
+      "Rail": 18,
+      "Road": 37,
+      "budget_multiplier": 1.05,
+      "predicted_SLA_breaches": 10,
+      "predicted_mean_hours": 26.25657259782183,
+      "predicted_total_late_hours": 17.895014931418178,
+      "total_tariff_units": 53704.92900000001
+    },
+    {
+      "Air": 7,
+      "Rail": 18,
+      "Road": 35,
+      "budget_multiplier": 1.1,
+      "predicted_SLA_breaches": 6,
+      "predicted_mean_hours": 25.6911091376207,
+      "predicted_total_late_hours": 9.037980567134358,
+      "total_tariff_units": 56399.751000000004
+    },
+    {
+      "Air": 9,
+      "Rail": 18,
+      "Road": 33,
+      "budget_multiplier": 1.15,
+      "predicted_SLA_breaches": 3,
+      "predicted_mean_hours": 25.02728139238457,
+      "predicted_total_late_hours": 3.621574993461099,
+      "total_tariff_units": 58834.15400000001
+    },
+    {
+      "Air": 10,
+      "Rail": 18,
+      "Road": 32,
+      "budget_multiplier": 1.2,
+      "predicted_SLA_breaches": 2,
+      "predicted_mean_hours": 24.73396839818308,
+      "predicted_total_late_hours": 1.9129070652738775,
+      "total_tariff_units": 60146.91800000001
+    }
+  ],
+  "target_mean_hours": 25.37228055555555,
+  "target_median_hours": 24.15,
+  "test_dates": [
+    "2025-09-30",
+    "2025-11-16"
+  ],
+  "test_error_interval_coverage": 0.8878504672897196,
+  "test_metrics_baseline": {
+    "MAE_hours": 7.158411214953271,
+    "R2": -0.034327873376272855,
+    "RMSE_hours": 8.962511111321467
+  },
+  "test_metrics_selected": {
+    "MAE_hours": 1.668283778571626,
+    "R2": 0.9428438549006513,
+    "RMSE_hours": 2.1068424390929072
+  },
+  "test_rows": 535,
+  "train_dates": [
+    "2025-01-01",
+    "2025-08-12"
+  ],
+  "train_rows": 2499,
+  "validation_dates": [
+    "2025-08-13",
+    "2025-09-29"
+  ],
+  "validation_metrics_selected": {
+    "MAE_hours": 1.611701958638552,
+    "R2": 0.9470902649579744,
+    "RMSE_hours": 2.0035690415064975
+  },
+  "validation_rows": 566
+}

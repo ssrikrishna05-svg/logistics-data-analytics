@@ -1,0 +1,5 @@
+model,CV_MAE_hours,validation_MAE_hours,validation_RMSE_hours,validation_R2,hyperparameters
+HistGradientBoosting,1.76093,1.6117,2.00357,0.94709,"{""max_leaf_nodes"": 12}"
+RandomForest,1.86659,1.72786,2.18104,0.9373,"{""max_depth"": 14}"
+Ridge,2.94801,2.97833,3.67395,0.82209,"{""alpha"": 5}"
+Median baseline,,7.18673,8.90692,-0.04564,{}
