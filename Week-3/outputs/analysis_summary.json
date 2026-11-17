@@ -1,0 +1,77 @@
+{
+  "provenance": "Week 2 SYNTHETIC example; not Olist actual orders",
+  "all_clean_orders": 54,
+  "delivered_orders": 46,
+  "shipped_orders": 5,
+  "canceled_orders": 3,
+  "on_time_deliveries": 23,
+  "late_deliveries": 23,
+  "on_time_rate_pct": 50.0,
+  "on_time_bootstrap_95pct_ci_pct": [
+    34.8,
+    63.0
+  ],
+  "average_delivery_days": 11.91,
+  "median_delivery_days": 10.5,
+  "average_delay_days_signed": 0.59,
+  "mean_freight_brl_all_orders": 157.61,
+  "mean_freight_brl_excluding_iqr_flagged": 103.98,
+  "median_freight_brl": 104.66,
+  "freight_outlier_records": 1,
+  "distance_freight_spearman_rho": 0.204,
+  "distance_freight_spearman_p": 0.1389,
+  "regression": {
+    "train_rows": 32,
+    "test_rows": 14,
+    "baseline": {
+      "mae_days": 6.143,
+      "rmse_days": 6.622,
+      "r2": -1.519
+    },
+    "ridge": {
+      "mae_days": 4.925,
+      "rmse_days": 5.248,
+      "r2": -0.582
+    },
+    "ridge_cv_train_mae_mean": 4.61,
+    "ridge_cv_train_mae_std": 0.691
+  },
+  "clustering": {
+    "chosen_k": 3,
+    "chosen_silhouette": 0.4859,
+    "outlier_cap_95pct": {
+      "distance_km": 595.64,
+      "freight_value": 162.62
+    },
+    "candidate_results": [
+      {
+        "k": 2,
+        "silhouette": 0.4465,
+        "sizes": [
+          37,
+          17
+        ]
+      },
+      {
+        "k": 3,
+        "silhouette": 0.4859,
+        "sizes": [
+          9,
+          33,
+          12
+        ]
+      },
+      {
+        "k": 4,
+        "silhouette": 0.4799,
+        "sizes": [
+          32,
+          3,
+          8,
+          11
+        ]
+      }
+    ]
+  },
+  "warning": "Small 54-row simulated sample; models are demonstrations only. No causal or real-world generalization."
+}

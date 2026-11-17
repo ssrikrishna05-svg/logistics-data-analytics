@@ -1,0 +1,4 @@
+cluster,orders,mean_distance_km,median_distance_km,mean_freight_brl,median_freight_brl,delivered_orders,on_time_rate_pct
+0,9,108.922,98.5,419.619,94.17,8,50.0
+1,33,449.985,372.9,123.673,126.79,28,42.857
+2,12,322.092,285.6,54.445,55.72,10,70.0

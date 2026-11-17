@@ -1,0 +1,9 @@
+customer_state,delivered_orders,on_time_orders,average_delivery_days,average_delay_days,on_time_rate_pct
+SP,9,5,11.556,0.0,55.556
+RJ,8,5,11.375,-0.5,62.5
+SC,7,3,12.286,2.857,42.857
+MG,6,4,10.333,-1.5,66.667
+PR,5,1,14.0,1.8,20.0
+RS,5,3,12.0,0.8,60.0
+BA,3,1,12.333,0.667,33.333
+UNKNOWN,3,1,12.667,1.667,33.333
